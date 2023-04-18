@@ -1,0 +1,16 @@
+{
+  "name": "uncensored-extension",
+  "version": "1.0.0",
+  "description": "An extension to undermine censorship",
+  "scripts": {
+    "build-propaganda-remover": "cd propaganda-remover && zip -u -r ../propaganda-remover.zip * || true",
+    "test-website": "hs website",
+    "deploy-website": "aws s3 sync --delete --metadata-directive REPLACE --cache-control max-age=1800,public website s3://lsdsoftware-websites/stopthemobs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:ken107/uncensored-extension"
+  },
+  "author": "Hai Phan <hai.phan@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,31 @@
+
+/* developer.android.com */
+.devsite-banner {
+    display: none;
+}
+
+/* momentjs.com */
+.hero-moment .hero-title {
+    display: none;
+}
+
+/* www.electronjs.org */
+.announcement-banner {
+    display: none;
+}
+
+/* webrtc.org */
+.devsite-banner-message {
+    display: none;
+}
+
+/* expressjs.com */
+header {
+    height: 58px;
+}
+#blm-banner {
+    display: none;
+}
+#logo .express {
+    margin: auto;
+}

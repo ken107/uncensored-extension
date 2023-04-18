@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Propaganda Remover</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="js/common.js"></script>
+    <script src="js/popup.js"></script>
+
+    <style>
+        .content {
+            min-width: 350px;
+            padding: 1em;
+        }
+        #txt-success {
+            color: green;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="form-group text-muted text-smaller">
+            Found propaganda?  Let us know on <a href="http://propaganda-banner-remover.idea.informer.com/" target="_blank">idea.informer</a>, and we will remove it for everyone.
+        </div>
+        <div class="form-group">
+            <input id="inp-url" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <button id="btn-copy" type="button" class="btn btn-primary">
+                Copy Page URL to Clipboard
+            </button>
+        </div>
+        <div id="txt-success" class="form-group">
+            URL copied to clipboard.
+        </div>
+    </div>
+</body>
+</html>
